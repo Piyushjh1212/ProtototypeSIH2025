@@ -418,8 +418,8 @@ const Home = () => {
               <h4 className="font-semibold text-lg mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>support@ayurdietpro.com</li>
-                <li>+1 (555) 123-4567</li>
-                <li>San Francisco, CA</li>
+                <li>7415691266</li>
+                <li>Bhopal, M.P,  India</li>
               </ul>
             </div>
           </div>
@@ -528,9 +528,18 @@ const Home = () => {
       {!isChatOpen && (
         <button
           onClick={() => setIsChatOpen(true)}
-          className="fixed bottom-4 right-4 w-14 h-14 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-110 animate-bounce z-40"
+          className="fixed bottom-4 right-4 w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-110 animate-bounce z-40 flex justify-center items-center"
         >
-          <span className="text-2xl">🤖</span>
+        <span className="text-2xl">
+  <img
+    src="/Chatbot.png"
+    alt="image"
+    width="50px"
+    height="50px"
+    className="invert"
+  />
+</span>
+
         </button>
       )}
     </div>

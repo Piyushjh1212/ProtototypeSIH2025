@@ -9,85 +9,85 @@ const About = () => {
     { number: "95%", label: "User Satisfaction", animation: "animate-pulse" }
   ];
 
-  const journey = [
-    {
-      year: "2020",
-      title: "Vision Born",
-      description: "Founded with the mission to digitize Ayurvedic nutrition wisdom",
-      icon: "💡",
-      color: "from-blue-500 to-cyan-500"
-    },
-    {
-      year: "2021",
-      title: "Research Phase",
-      description: "Collaborated with 50+ Ayurvedic experts to build comprehensive food database",
-      icon: "🔬",
-      color: "from-green-500 to-emerald-500"
-    },
-    {
-      year: "2022",
-      title: "AI Development",
-      description: "Developed proprietary AI algorithms for personalized Ayurvedic recommendations",
-      icon: "🤖",
-      color: "from-purple-500 to-indigo-500"
-    },
-    {
-      year: "2023",
-      title: "Beta Launch",
-      description: "Launched beta version with 1,000+ users and achieved 95% satisfaction rate",
-      icon: "🚀",
-      color: "from-orange-500 to-red-500"
-    },
-    {
-      year: "2024",
-      title: "Global Expansion",
-      description: "Serving 25,000+ users worldwide with 10,000+ validated Ayurvedic foods",
-      icon: "🌍",
-      color: "from-teal-500 to-blue-500"
-    },
-    {
-      year: "2025",
-      title: "AI Practitioner",
-      description: "Launched AI Ayurvedic practitioner with advanced diagnostic capabilities",
-      icon: "👨‍⚕️",
-      color: "from-pink-500 to-rose-500"
-    },
-    {
-      year: "2026",
-      title: "Mobile Revolution",
-      description: "Mobile app reaches 100,000+ active users with real-time health tracking",
-      icon: "📱",
-      color: "from-yellow-500 to-amber-500"
-    },
-    {
-      year: "2027",
-      title: "Global Certification",
-      description: "Became the first AI-powered Ayurvedic platform certified by international health bodies",
-      icon: "🏆",
-      color: "from-indigo-500 to-purple-500"
-    },
-    {
-      year: "2028",
-      title: "Research Institute",
-      description: "Established VedaDiet Research Institute for evidence-based Ayurvedic studies",
-      icon: "🏛️",
-      color: "from-emerald-500 to-green-500"
-    },
-    {
-      year: "2029",
-      title: "Million Users",
-      description: "Reached 1 million active users across 50+ countries worldwide",
-      icon: "👥",
-      color: "from-red-500 to-orange-500"
-    },
-    {
-      year: "2030",
-      title: "Future Vision",
-      description: "Pioneering integration of Ayurveda with genomics and personalized medicine",
-      icon: "🔮",
-      color: "from-cyan-500 to-blue-500"
-    }
-  ];
+  // const journey = [
+  //   {
+  //     year: "2020",
+  //     title: "Vision Born",
+  //     description: "Founded with the mission to digitize Ayurvedic nutrition wisdom",
+  //     icon: "💡",
+  //     color: "from-blue-500 to-cyan-500"
+  //   },
+  //   {
+  //     year: "2021",
+  //     title: "Research Phase",
+  //     description: "Collaborated with 50+ Ayurvedic experts to build comprehensive food database",
+  //     icon: "🔬",
+  //     color: "from-green-500 to-emerald-500"
+  //   },
+  //   {
+  //     year: "2022",
+  //     title: "AI Development",
+  //     description: "Developed proprietary AI algorithms for personalized Ayurvedic recommendations",
+  //     icon: "🤖",
+  //     color: "from-purple-500 to-indigo-500"
+  //   },
+  //   {
+  //     year: "2023",
+  //     title: "Beta Launch",
+  //     description: "Launched beta version with 1,000+ users and achieved 95% satisfaction rate",
+  //     icon: "🚀",
+  //     color: "from-orange-500 to-red-500"
+  //   },
+  //   {
+  //     year: "2024",
+  //     title: "Global Expansion",
+  //     description: "Serving 25,000+ users worldwide with 10,000+ validated Ayurvedic foods",
+  //     icon: "🌍",
+  //     color: "from-teal-500 to-blue-500"
+  //   },
+  //   {
+  //     year: "2025",
+  //     title: "AI Practitioner",
+  //     description: "Launched AI Ayurvedic practitioner with advanced diagnostic capabilities",
+  //     icon: "👨‍⚕️",
+  //     color: "from-pink-500 to-rose-500"
+  //   },
+  //   {
+  //     year: "2026",
+  //     title: "Mobile Revolution",
+  //     description: "Mobile app reaches 100,000+ active users with real-time health tracking",
+  //     icon: "📱",
+  //     color: "from-yellow-500 to-amber-500"
+  //   },
+  //   {
+  //     year: "2027",
+  //     title: "Global Certification",
+  //     description: "Became the first AI-powered Ayurvedic platform certified by international health bodies",
+  //     icon: "🏆",
+  //     color: "from-indigo-500 to-purple-500"
+  //   },
+  //   {
+  //     year: "2028",
+  //     title: "Research Institute",
+  //     description: "Established VedaDiet Research Institute for evidence-based Ayurvedic studies",
+  //     icon: "🏛️",
+  //     color: "from-emerald-500 to-green-500"
+  //   },
+  //   {
+  //     year: "2029",
+  //     title: "Million Users",
+  //     description: "Reached 1 million active users across 50+ countries worldwide",
+  //     icon: "👥",
+  //     color: "from-red-500 to-orange-500"
+  //   },
+  //   {
+  //     year: "2030",
+  //     title: "Future Vision",
+  //     description: "Pioneering integration of Ayurveda with genomics and personalized medicine",
+  //     icon: "🔮",
+  //     color: "from-cyan-500 to-blue-500"
+  //   }
+  // ];
 
   const coreValues = [
     {
@@ -273,58 +273,6 @@ const About = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Journey Timeline */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-indigo-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-4">
-            Our Journey
-          </h2>
-          <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-            How VedaDiet evolved from vision to reality and our roadmap to 2030
-          </p>
-
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-green-500 to-blue-500 h-full hidden md:block"></div>
-            
-            <div className="space-y-12">
-              {journey.map((item, index) => (
-                <div 
-                  key={index}
-                  className={`flex flex-col md:flex-row items-center ${
-                    index % 2 === 0 ? 'md:flex-row-reverse' : ''
-                  }`}
-                >
-                  {/* Content */}
-                  <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-8' : 'md:pl-8'} mb-8 md:mb-0`}>
-                    <div className="bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 group">
-                      <div className="flex items-center mb-4">
-                        <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${item.color} text-white text-lg flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                          {item.icon}
-                        </div>
-                        <div className="ml-4">
-                          <div className="text-2xl font-bold text-gray-800">{item.year}</div>
-                          <div className="text-lg font-semibold text-gray-700">{item.title}</div>
-                        </div>
-                      </div>
-                      <p className="text-gray-600 leading-relaxed">{item.description}</p>
-                    </div>
-                  </div>
-
-                  {/* Year Marker */}
-                  <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2">
-                    <div className={`w-8 h-8 rounded-full bg-gradient-to-r ${item.color} border-4 border-white shadow-lg`}></div>
-                  </div>
-
-                  {/* Spacer for mobile */}
-                  <div className="md:hidden w-full h-8"></div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
